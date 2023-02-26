@@ -68,7 +68,7 @@ res.status(statusCode)
 });
 
 mongoose
-.connect('mongodb+srv://pika:pika@cluster0.epfce.mongodb.net/REST-API')
+.connect('')
 .then(res=>{
   console.log('Connected!!!')
   const server = app.listen(8080);
